@@ -2,8 +2,8 @@
 # local_backend للتجربة على جهازك فقط (npx decap-server)، احذفيه عند النشر
 backend:
   name: github
-   repo: lama123/portfolio
-   branch: main
+  repo: la12004/portfolio
+  branch: main
 local_backend: true
 media_folder: images/uploads
 public_folder: /images/uploads
