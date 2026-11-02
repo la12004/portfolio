@@ -20,6 +20,15 @@
       "description": "مشروع مصغّر لتوليد الكهرباء باستخدام مستشعرات الضغط وأنظمة الكهروضغطية (Piezoelectric)، بهدف استكشاف حلول الطاقة المستدامة.",
       "description_en": "Mini project for generating electricity using pressure sensors and piezo systems, exploring sustainable energy solutions.",
       "tech": "IoT-Sensors-Hardware-Piezoelectric Sensor"
+    },
+    {
+      "featured": false,
+      "title_en": "Forest Fire Detection System",
+      "description_en": "AI-based fire detection model using YOLO and computer vision technology for early wildfire prediction and prevention.\n\n",
+      "description": "نموذج للكشف عن الحرائق باستخدام الذكاء الاصطناعي، يعتمد على تقنية YOLO والرؤية الحاسوبية للتنبؤ المبكر بحرائق الغابات والمساهمة في الوقاية منها.",
+      "title": "نظام اكتشاف حرائق الغابات",
+      "tech": "Drone -Python- AI- Computer Vision -YOLOv8",
+      "image": "/images/uploads/لقطة-شاشة-2026-05-04-205549.png"
     }
   ]
 }
