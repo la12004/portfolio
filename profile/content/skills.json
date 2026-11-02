@@ -1,0 +1,44 @@
+{
+  "items": [
+    {
+      "title": "البرمجة والتطوير",
+      "title_en": "Programming & Development",
+      "icon": "code-slash",
+      "accent": false,
+      "list": "HTML, CSS, Tailwind CSS, JavaScript, React.js, Node.js, Python, R, Java, C++, SQL, MySQL, Unity",
+      "list_en": ""
+    },
+    {
+      "title": "البيانات والتحليل",
+      "title_en": "Data & Analytics",
+      "icon": "bar-chart-line",
+      "accent": false,
+      "list": "تحليل البيانات, Microsoft Excel, Tableau, Power BI, تصوير البيانات, النمذجة الإحصائية",
+      "list_en": "Data Analysis, Microsoft Excel, Tableau, Power BI, Data Visualization, Statistical Modeling"
+    },
+    {
+      "title": "تصميم UI/UX والمنتجات الرقمية",
+      "title_en": "UI/UX & Digital Product Design",
+      "icon": "palette",
+      "accent": false,
+      "list": "تصميم UI/UX, Figma, Canva, تصميم الواجهات المتجاوبة, User Flows, تحليل المتطلبات, تصميم المنتجات الرقمية",
+      "list_en": "UI/UX Design, Figma, Canva, Responsive Interface Design, User Flows, Requirements Analysis, Digital Product Design"
+    },
+    {
+      "title": "الأدوات والإنتاجية",
+      "title_en": "Tools & Productivity",
+      "icon": "wrench",
+      "accent": false,
+      "list": "Git, Agile, Asana, Microsoft Word, Microsoft PowerPoint, Microsoft Outlook",
+      "list_en": ""
+    },
+    {
+      "title": "المهارات المهنية",
+      "title_en": "Professional Skills",
+      "icon": "people",
+      "accent": true,
+      "list": "العمل الجماعي والقيادة, حل المشكلات والتفكير النقدي, الإبداع والابتكار, التواصل والعرض",
+      "list_en": "Teamwork & Leadership, Problem Solving & Critical Thinking, Creativity & Innovation, Communication & Presentation"
+    }
+  ]
+}

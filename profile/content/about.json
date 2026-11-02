@@ -1,0 +1,31 @@
+{
+  "text": "خريجة نظم معلومات من جامعة الملك خالد، لدي خبرة عملية في تطوير الواجهات الأمامية وتصميم UI/UX وتحليل البيانات وتصميم المنتجات الرقمية. شغوفة ببناء حلول رقمية تتمحور حول المستخدم واستكشاف التقنيات الناشئة، ومنها الذكاء الاصطناعي وإنترنت الأشياء والحوسبة السحابية.",
+  "text_en": "Information Systems graduate from King Khalid University with practical experience in front-end development, UI/UX design, data analytics, and digital product design. Passionate about building user-centered digital solutions and exploring emerging technologies, including artificial intelligence, IoT, and cloud computing.",
+  "points": [
+    {
+      "text": "تطوير المواقع",
+      "text_en": "Web development",
+      "icon": "window-stack"
+    },
+    {
+      "text": "تحليل البيانات وتصويرها",
+      "text_en": "Data analysis & visualization",
+      "icon": "bar-chart-line"
+    },
+    {
+      "text": "تصميم UI/UX والمنتجات الرقمية",
+      "text_en": "UI/UX & digital product design",
+      "icon": "palette"
+    },
+    {
+      "text": "تحليل النظم والحلول الرقمية",
+      "text_en": "Systems analysis & digital solutions",
+      "icon": "diagram-3"
+    },
+    {
+      "text": "الذكاء الاصطناعي وإنترنت الأشياء والسحابة",
+      "text_en": "AI, IoT & cloud computing",
+      "icon": "cpu"
+    }
+  ]
+}

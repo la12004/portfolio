@@ -1,0 +1,89 @@
+{
+  "items": [
+    {
+      "icon": "briefcase",
+      "type": "تدريب عملي",
+      "type_en": "Practical Training",
+      "period": "28 يونيو 2026 – 20 أغسطس 2026",
+      "period_en": "28 June 2026 – 20 August 2026",
+      "role": "متدربة تعاوني",
+      "role_en": "Cooperative Trainee",
+      "org": "لينكس لتقنية المعلومات",
+      "org_en": "Lynx Information Technology",
+      "details": "أكملت تدريبا عمليا في لينكس لتقنية المعلومات، وساهمت في العمل على 5 تطبيقات و6 مواقع. اكتسبت خبرة في تطوير الواجهات الأمامية وتصميم UI/UX وتحليل المتطلبات وتدفقات المستخدم وتصميم المنتجات الرقمية.",
+      "details_en": "Completed practical training at Lynx Information Technology, contributing to work across 5 applications and 6 websites. Gained experience in front-end development, UI/UX design, requirements analysis, user flows, and digital product design.",
+      "stats": [
+        {
+          "num": "5",
+          "label": "تطبيقات",
+          "label_en": "Applications"
+        },
+        {
+          "num": "6",
+          "label": "مواقع",
+          "label_en": "Websites"
+        }
+      ]
+    },
+    {
+      "icon": "heart",
+      "type": "القطاع غير الربحي",
+      "type_en": "Non-Profit Sector",
+      "period": "يناير 2025 – حاليا",
+      "period_en": "January 2025 – Present",
+      "badge": "حاليا",
+      "badge_en": "Present",
+      "role": "كاتبة محتوى",
+      "role_en": "Content Writer",
+      "org": "فريق تمكين التقني",
+      "org_en": "Tamkeen Tech Team",
+      "note": "فريق يعمل في القطاع غير الربحي",
+      "note_en": "A team working in the non-profit sector",
+      "details": "أكتب وأحرر محتوى للمنصات الرقمية ومشاريع الفريق، وأتعاون مع الفريق لضمان تواصل واضح وجذاب ومتسق في المحتوى والمبادرات.",
+      "details_en": "Create and edit content for digital platforms and team projects. Collaborate with the team to ensure clear, engaging, and consistent communication across content and initiatives."
+    },
+    {
+      "icon": "mortarboard",
+      "type": "نشاط جامعي",
+      "type_en": "University Activity",
+      "period": "سبتمبر 2024 – أبريل 2025",
+      "period_en": "September 2024 – April 2025",
+      "role": "عضوة لجنة التصميم",
+      "role_en": "Design Committee Member",
+      "org": "نادي ريادة الأعمال، جامعة الملك خالد",
+      "org_en": "Entrepreneurship Club, King Khalid University",
+      "details": "صممت مواد ترويجية إبداعية، ودعمت فعاليات النادي، وساهمت بأفكار لتعزيز أنشطة النادي والتواصل البصري.",
+      "details_en": "Designed creative promotional materials, supported club events, and contributed ideas to enhance club activities and visual communication."
+    },
+    {
+      "icon": "rocket-takeoff",
+      "highlight": true,
+      "type": "هاكاثون",
+      "type_en": "Hackathon",
+      "period": "سبتمبر 2024",
+      "period_en": "September 2024",
+      "role": "مشاركة",
+      "role_en": "Participant",
+      "org": "هاكاثون الذكاء الاصطناعي والحوسبة السحابية",
+      "org_en": "AI & Cloud Computing Hackathon",
+      "details": "عملت ضمن فريق متعدد التخصصات لاستكشاف حلول مبتكرة باستخدام الذكاء الاصطناعي والتقنيات السحابية.",
+      "details_en": "Collaborated with a multidisciplinary team to explore innovative solutions using artificial intelligence and cloud technologies."
+    },
+    {
+      "icon": "book",
+      "type": "برنامج تدريبي",
+      "type_en": "Training Program",
+      "period": "يونيو 2024 – أغسطس 2024",
+      "period_en": "June 2024 – August 2024",
+      "badge": "120 ساعة",
+      "badge_en": "120 hours",
+      "badge_dark": true,
+      "role": "متدربة تطوير الواجهات الأمامية",
+      "role_en": "Front-End Development Trainee",
+      "org": "معهد المستقبل المبتكر",
+      "org_en": "Innovative Future Institute",
+      "details": "أكملت 120 ساعة تدريبية في تطوير الواجهات الأمامية، واكتسبت خبرة عملية في بناء واجهات المستخدم وتصميم صفحات متجاوبة باستخدام أدوات وأطر تطوير الويب الحديثة.",
+      "details_en": "Completed 120 hours of front-end development training, gaining hands-on experience in building user interfaces and creating responsive designs using modern web development tools and frameworks."
+    }
+  ]
+}

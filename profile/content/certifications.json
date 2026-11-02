@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "type": "تدريب",
+      "title": "تدريب Microsoft Office Specialist",
+      "title_en": "Microsoft Office Specialist Training",
+      "issuer": "",
+      "meta": "30 ساعة",
+      "meta_en": "30 hours",
+      "description": "تدريب لشهادة احترافية يغطي Microsoft Word وExcel وPowerPoint.",
+      "description_en": "Professional certification training covering Microsoft Word, Excel, and PowerPoint.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "type": "تدريب",
+      "title": "تدريب تطوير الواجهات الأمامية",
+      "title_en": "Front-End Development Training",
+      "issuer": "معهد المستقبل المبتكر",
+      "issuer_en": "Innovative Future Institute",
+      "meta": "يونيو–أغسطس 2024 · 120 ساعة",
+      "meta_en": "Jun–Aug 2024 · 120 hours",
+      "description": "تدريب عملي يغطي HTML وCSS وJavaScript وأدوات وأطر تطوير الواجهات الحديثة.",
+      "description_en": "Practical training covering HTML, CSS, JavaScript, and modern front-end development tools and frameworks.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "type": "هاكاثون",
+      "title": "هاكاثون الذكاء الاصطناعي والحوسبة السحابية",
+      "title_en": "AI & Cloud Computing Hackathon",
+      "issuer": "",
+      "meta": "سبتمبر 2024",
+      "meta_en": "September 2024",
+      "description": "شاركت في فعالية ابتكار تركز على الذكاء الاصطناعي والتقنيات السحابية، مع التعاون على حلول عملية.",
+      "description_en": "Participated in an innovation event focused on AI and cloud technologies, collaborating on practical solutions.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "type": "تدريب",
+      "title": "تدريب أساسيات Power BI",
+      "title_en": "Power BI Fundamentals Training",
+      "issuer": "",
+      "meta": "",
+      "description": "تدريب يركز على تصوير البيانات وتحليلها باستخدام Power BI.",
+      "description_en": "Training focused on data visualization and analytics using Power BI.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "type": "هاكاثون",
+      "title": "هاكاثون عسير",
+      "title_en": "Asir Hackathon",
+      "issuer": "",
+      "meta": "",
+      "description": "مشاركة في هاكاثون إقليمي تضمن التعاون على حلول مبتكرة.",
+      "description_en": "Regional hackathon participation involving collaboration on innovative solutions.",
+      "image": "",
+      "link": ""
+    },
+    {
+      "type": "شهادة",
+      "title": "شهادة شكر وتقدير – TechConnect",
+      "title_en": "Certificate of Appreciation – TechConnect",
+      "issuer": "كلية علوم الحاسب، جامعة الملك خالد",
+      "issuer_en": "College of Computer Science, King Khalid University",
+      "meta": "2025–2026",
+      "description": "تقديرا للمشاركة الفعالة في فعالية TechConnect خلال العام الدراسي 2025–2026.",
+      "description_en": "In appreciation of active participation in the TechConnect event during the academic year 2025–2026.",
+      "image": "",
+      "link": ""
+    }
+  ],
+  "extra": "أساسيات Python, أساسيات الأمن السيبراني, معسكر إنترنت الأشياء, تطبيقات التقنية الحديثة في الطقس وتغير المناخ, مقدمة في الحوسبة عالية الأداء والذكاء الاصطناعي",
+  "extra_en": "Python Basics, Cybersecurity Basics, Internet of Things Bootcamp, Applications of Modern Technology in Weather and Climate Change, Introduction to High-Performance Computing and Artificial Intelligence"
+}

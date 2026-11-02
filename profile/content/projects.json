@@ -1,0 +1,17 @@
+{
+  "items": [
+    {
+      "title": "خُطا",
+      "title_en": "Khuta",
+      "description": "تطبيق جوال للّياقة يكافئ المستخدم على خطواته ونشاطه اليومي (Move-to-Earn)، موجّه للسوق السعودي.",
+      "description_en": "A fitness mobile app that rewards users for their steps and daily activity (Move-to-Earn), built for the Saudi market.",
+      "image": "",
+      "link": "",
+      "featured": true,
+      "tech": "",
+      "details": "خُطا تطبيق جوال للياقة البدنية يعتمد فكرة Move-to-Earn: يتتبع خطوات المستخدم ونشاطه اليومي ويكافئه عليها.\n\nيستهدف السوق السعودي، ويهدف إلى تحفيز المجتمع على الحركة بطريقة ممتعة ومجزية.",
+      "details_en": "Khuta is a fitness mobile app built on the Move-to-Earn idea: it tracks the user's steps and daily activity and rewards them for it.\n\nIt targets the Saudi market and aims to motivate people to move in a fun and rewarding way.",
+      "github": ""
+    }
+  ]
+}

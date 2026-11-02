@@ -1,0 +1,673 @@
+# غيّري USERNAME/REPO لاسم حسابك/اسم المستودع
+# local_backend للتجربة على جهازك فقط (npx decap-server)، احذفيه عند النشر
+backend:
+  name: github
+   repo: lama123/portfolio
+   branch: main
+local_backend: true
+media_folder: images/uploads
+public_folder: /images/uploads
+locale: ar
+collections:
+- name: site
+  label: محتوى الموقع
+  files:
+  - name: home
+    label: الرئيسية
+    file: content/home.json
+    fields:
+    - name: name
+      label: الاسم (عربي)
+      widget: string
+    - name: name_en
+      label: الاسم (English)
+      widget: string
+      required: false
+    - name: initials
+      label: الأحرف على البطاقة (مثل LM) إذا ما فيه صورة
+      widget: string
+      required: false
+    - name: role
+      label: المسمى الوظيفي (عربي)
+      widget: text
+      required: false
+    - name: role_en
+      label: المسمى الوظيفي (English)
+      widget: text
+      required: false
+    - name: tagline
+      label: الوصف المختصر (عربي)
+      widget: text
+      required: false
+    - name: tagline_en
+      label: الوصف المختصر (English)
+      widget: text
+      required: false
+    - name: photo
+      label: الصورة / الشعار
+      widget: image
+      required: false
+    - name: highlights
+      label: البطاقات تحت الهيرو
+      widget: list
+      fields:
+      - name: title
+        label: العنوان (عربي)
+        widget: string
+        required: false
+      - name: title_en
+        label: العنوان (English)
+        widget: string
+        required: false
+      - name: icon
+        label: الأيقونة
+        widget: select
+        required: false
+        options: &id001
+        - code-slash
+        - bar-chart-line
+        - palette
+        - cpu
+        - wrench
+        - people
+        - briefcase
+        - heart
+        - mortarboard
+        - rocket-takeoff
+        - book
+        - trophy
+        - patch-check
+        - globe2
+        - database
+        - lightbulb
+        - brush
+        - shield-lock
+        - cloud
+        - window-stack
+        - diagram-3
+        - phone
+        - stars
+        default: code-slash
+    - name: footer_tag
+      label: جملة الفوتر (عربي)
+      widget: string
+      required: false
+    - name: footer_tag_en
+      label: جملة الفوتر (English)
+      widget: string
+      required: false
+  - name: about
+    label: نبذة عني
+    file: content/about.json
+    fields:
+    - name: text
+      label: النص (عربي)
+      widget: text
+      required: false
+    - name: text_en
+      label: النص (English)
+      widget: text
+      required: false
+    - name: points
+      label: النقاط الجانبية
+      widget: list
+      fields:
+      - name: text
+        label: النقطة (عربي)
+        widget: string
+        required: false
+      - name: text_en
+        label: النقطة (English)
+        widget: string
+        required: false
+      - name: icon
+        label: الأيقونة
+        widget: select
+        options: *id001
+        default: window-stack
+        required: false
+  - name: skills
+    label: المهارات
+    file: content/skills.json
+    fields:
+    - name: items
+      label: مجموعات المهارات
+      widget: list
+      fields:
+      - name: title
+        label: اسم المجموعة (عربي)
+        widget: string
+        required: false
+      - name: title_en
+        label: اسم المجموعة (English)
+        widget: string
+        required: false
+      - name: icon
+        label: الأيقونة
+        widget: select
+        required: false
+        options: *id001
+        default: code-slash
+      - name: accent
+        label: لون مميز (للمهارات المهنية)
+        widget: boolean
+        required: false
+        default: false
+      - name: list
+        label: المهارات (افصلي بينها بفاصلة) (عربي)
+        widget: text
+        required: false
+      - name: list_en
+        label: المهارات (افصلي بينها بفاصلة) (English)
+        widget: text
+        required: false
+      summary: '{{title}}'
+  - name: projects
+    label: المشاريع
+    file: content/projects.json
+    fields:
+    - name: items
+      label: المشاريع
+      widget: list
+      fields:
+      - name: title
+        label: العنوان (عربي)
+        widget: string
+        required: false
+      - name: title_en
+        label: العنوان (English)
+        widget: string
+        required: false
+      - name: description
+        label: الوصف (عربي)
+        widget: text
+        required: false
+      - name: description_en
+        label: الوصف (English)
+        widget: text
+        required: false
+      - name: details
+        label: تفاصيل المشروع - تظهر في النافذة (عربي)
+        widget: text
+        required: false
+      - name: details_en
+        label: تفاصيل المشروع - تظهر في النافذة (English)
+        widget: text
+        required: false
+      - name: tech
+        label: التقنيات المستخدمة (افصلي بفاصلة)
+        widget: string
+        required: false
+        hint: 'مثال: React, Node.js, Firebase'
+      - name: github
+        label: رابط GitHub
+        widget: string
+        required: false
+        hint: https://github.com/اسمك/المشروع
+      - name: link
+        label: رابط المعاينة المباشرة (اختياري)
+        widget: string
+        required: false
+      - name: share_link
+        label: رابط المشاركة (اختياري)
+        widget: string
+        required: false
+        hint: الرابط اللي ينشاركه الزائر من زر مشاركة المشروع. إذا تركتيه فاضي نستخدم رابط المعاينة ثم GitHub. إذا ما فيه أي رابط ما يظهر زر المشاركة.
+      - name: image
+        label: صورة المشروع
+        widget: image
+        required: false
+      - name: featured
+        label: مشروع رئيسي (بطاقة كبيرة)
+        widget: boolean
+        required: false
+        default: false
+      summary: '{{title}}'
+  - name: experience
+    label: الخبرات
+    file: content/experience.json
+    fields:
+    - name: items
+      label: الخبرات
+      widget: list
+      fields:
+      - name: icon
+        label: الأيقونة
+        widget: select
+        required: false
+        options: *id001
+        default: code-slash
+      - name: type
+        label: 'النوع (مثل: تدريب عملي) (عربي)'
+        widget: string
+        required: false
+      - name: type_en
+        label: 'النوع (مثل: تدريب عملي) (English)'
+        widget: string
+        required: false
+      - name: role
+        label: المسمى (عربي)
+        widget: string
+      - name: role_en
+        label: المسمى (English)
+        widget: string
+        required: false
+      - name: org
+        label: الجهة (عربي)
+        widget: string
+        required: false
+      - name: org_en
+        label: الجهة (English)
+        widget: string
+        required: false
+      - name: period
+        label: الفترة (عربي)
+        widget: string
+        required: false
+      - name: period_en
+        label: الفترة (English)
+        widget: string
+        required: false
+      - name: badge
+        label: 'شارة (مثل: حاليا / 120 ساعة) (عربي)'
+        widget: string
+        required: false
+      - name: badge_en
+        label: 'شارة (مثل: حاليا / 120 ساعة) (English)'
+        widget: string
+        required: false
+      - name: badge_dark
+        label: الشارة داكنة
+        widget: boolean
+        required: false
+        default: false
+      - name: note
+        label: ملاحظة صغيرة تحت الجهة (عربي)
+        widget: string
+        required: false
+      - name: note_en
+        label: ملاحظة صغيرة تحت الجهة (English)
+        widget: string
+        required: false
+      - name: details
+        label: التفاصيل (عربي)
+        widget: text
+        required: false
+      - name: details_en
+        label: التفاصيل (English)
+        widget: text
+        required: false
+      - name: highlight
+        label: بطاقة مميزة (إطار منقط)
+        widget: boolean
+        required: false
+        default: false
+      - name: stats
+        label: أرقام (مثل 5 تطبيقات)
+        widget: list
+        fields:
+        - name: num
+          label: الرقم
+          widget: string
+        - name: label
+          label: الوصف (عربي)
+          widget: string
+          required: false
+        - name: label_en
+          label: الوصف (English)
+          widget: string
+          required: false
+      summary: '{{role_en}} {{role}}'
+  - name: education
+    label: التعليم
+    file: content/education.json
+    fields:
+    - name: items
+      label: التعليم
+      widget: list
+      fields:
+      - name: degree
+        label: الدرجة (عربي)
+        widget: string
+      - name: degree_en
+        label: الدرجة (English)
+        widget: string
+        required: false
+      - name: school
+        label: الجامعة (عربي)
+        widget: string
+        required: false
+      - name: school_en
+        label: الجامعة (English)
+        widget: string
+        required: false
+      - name: location
+        label: الموقع (عربي)
+        widget: string
+        required: false
+      - name: location_en
+        label: الموقع (English)
+        widget: string
+        required: false
+      - name: badge
+        label: 'شارة (مثل: تخرجت 2026) (عربي)'
+        widget: string
+        required: false
+      - name: badge_en
+        label: 'شارة (مثل: تخرجت 2026) (English)'
+        widget: string
+        required: false
+      - name: coursework
+        label: المقررات (افصلي بفاصلة) (عربي)
+        widget: text
+        required: false
+      - name: coursework_en
+        label: المقررات (افصلي بفاصلة) (English)
+        widget: text
+        required: false
+      summary: '{{degree_en}} {{degree}}'
+  - name: certifications
+    label: الشهادات والتدريب والهاكاثونات
+    file: content/certifications.json
+    fields:
+    - name: items
+      label: العناصر
+      widget: list
+      fields:
+      - name: title
+        label: العنوان (عربي)
+        widget: string
+      - name: title_en
+        label: العنوان (English)
+        widget: string
+        required: false
+      - name: type
+        label: النوع
+        widget: select
+        required: false
+        options:
+        - شهادة
+        - تدريب
+        - هاكاثون
+        default: شهادة
+      - name: issuer
+        label: الجهة (عربي)
+        widget: string
+        required: false
+      - name: issuer_en
+        label: الجهة (English)
+        widget: string
+        required: false
+      - name: meta
+        label: التاريخ / الساعات (عربي)
+        widget: string
+        required: false
+      - name: meta_en
+        label: التاريخ / الساعات (English)
+        widget: string
+        required: false
+      - name: description
+        label: الوصف (عربي)
+        widget: text
+        required: false
+      - name: description_en
+        label: الوصف (English)
+        widget: text
+        required: false
+      - name: image
+        label: صورة الشهادة
+        widget: image
+        required: false
+      - name: link
+        label: رابط
+        widget: string
+        required: false
+      summary: '{{title_en}} {{title}}'
+    - name: extra
+      label: دورات وورش إضافية (افصلي بفاصلة) (عربي)
+      widget: text
+      required: false
+    - name: extra_en
+      label: دورات وورش إضافية (افصلي بفاصلة) (English)
+      widget: text
+      required: false
+  - name: recommendations
+    label: التوصيات
+    file: content/recommendations.json
+    fields:
+    - name: items
+      label: التوصيات
+      widget: list
+      fields:
+      - name: author
+        label: الاسم (عربي)
+        widget: string
+      - name: author_en
+        label: الاسم (English)
+        widget: string
+        required: false
+      - name: title
+        label: المنصب (عربي)
+        widget: string
+        required: false
+      - name: title_en
+        label: المنصب (English)
+        widget: string
+        required: false
+      - name: text
+        label: اقتباس (اختياري) (عربي)
+        widget: text
+        required: false
+      - name: text_en
+        label: اقتباس (اختياري) (English)
+        widget: text
+        required: false
+      - name: image
+        label: صورة خطاب التوصية
+        widget: image
+        required: false
+      summary: '{{author_en}} {{author}}'
+  - name: contact
+    label: التواصل
+    file: content/contact.json
+    fields:
+    - name: intro
+      label: جملة التعريف (عربي)
+      widget: text
+      required: false
+    - name: intro_en
+      label: جملة التعريف (English)
+      widget: text
+      required: false
+    - name: linkedin
+      label: رابط LinkedIn
+      widget: string
+      required: false
+    - name: linkedin_label
+      label: النص المعروض
+      widget: string
+      required: false
+    - name: email
+      label: الإيميل
+      widget: string
+      required: false
+    - name: phone
+      label: الجوال
+      widget: string
+      required: false
+    - name: x
+      label: رابط X
+      widget: string
+      required: false
+    - name: x_label
+      label: النص المعروض
+      widget: string
+      required: false
+    - name: github
+      label: رابط GitHub
+      widget: string
+      required: false
+    - name: github_label
+      label: النص المعروض
+      widget: string
+      required: false
+    - name: location
+      label: الموقع (عربي)
+      widget: string
+      required: false
+    - name: location_en
+      label: الموقع (English)
+      widget: string
+      required: false
+  - name: sections
+    label: أقسام جديدة (إضافة قسم للموقع)
+    file: content/sections.json
+    fields:
+    - name: items
+      label: الأقسام الإضافية
+      label_singular: قسم
+      widget: list
+      summary: '{{title}} {{title_en}}'
+      fields:
+      - name: title
+        label: عنوان القسم (عربي)
+        widget: string
+        required: true
+      - name: title_en
+        label: عنوان القسم (English)
+        widget: string
+        required: false
+      - name: subtitle
+        label: سطر شرح تحت العنوان (عربي)
+        widget: string
+        required: false
+      - name: subtitle_en
+        label: سطر شرح تحت العنوان (English)
+        widget: string
+        required: false
+      - name: icon
+        label: الأيقونة
+        widget: select
+        required: false
+        options: &id002
+        - code-slash
+        - bar-chart-line
+        - palette
+        - cpu
+        - wrench
+        - people
+        - briefcase
+        - heart
+        - mortarboard
+        - rocket-takeoff
+        - book
+        - trophy
+        - patch-check
+        - globe2
+        - database
+        - lightbulb
+        - brush
+        - shield-lock
+        - cloud
+        - window-stack
+        - diagram-3
+        - phone
+        - stars
+        default: code-slash
+      - name: after
+        label: مكان القسم (يظهر بعد أي قسم؟)
+        widget: select
+        required: false
+        options:
+        - label: بعد نبذة عني
+          value: about
+        - label: بعد المهارات
+          value: skills
+        - label: بعد المشاريع
+          value: projects
+        - label: بعد الخبرات
+          value: experience
+        - label: بعد التعليم
+          value: education
+        - label: بعد الشهادات
+          value: certifications
+        - label: بعد التوصيات (قبل التواصل)
+          value: recommendations
+        default: recommendations
+      - name: layout
+        label: شكل عرض القسم
+        widget: select
+        required: false
+        options:
+        - label: بطاقات (عنوان + وصف + صورة + رابط)
+          value: cards
+        - label: نص فقط
+          value: text
+        - label: كبسولات (قائمة كلمات)
+          value: chips
+        default: cards
+      - name: tint
+        label: خلفية ملونة فاتحة
+        widget: boolean
+        required: false
+        default: false
+      - name: slug
+        label: اسم الرابط بالإنجليزي (اختياري)
+        widget: string
+        required: false
+        pattern:
+        - ^[a-z0-9-]+$
+        - 'حروف إنجليزية صغيرة وأرقام وشرطة فقط، مثل: volunteering'
+        hint: 'مثال: volunteering ← يصير رابط القسم #x-volunteering'
+      - name: text
+        label: نص القسم (اختياري) (عربي)
+        widget: text
+        required: false
+      - name: text_en
+        label: نص القسم (اختياري) (English)
+        widget: text
+        required: false
+      - name: cards
+        label: 'البطاقات (لشكل: بطاقات)'
+        widget: list
+        required: false
+        summary: '{{title}} {{title_en}}'
+        fields:
+        - name: title
+          label: العنوان (عربي)
+          widget: string
+          required: true
+        - name: title_en
+          label: العنوان (English)
+          widget: string
+          required: false
+        - name: description
+          label: الوصف (عربي)
+          widget: text
+          required: false
+        - name: description_en
+          label: الوصف (English)
+          widget: text
+          required: false
+        - name: image
+          label: صورة
+          widget: image
+          required: false
+        - name: icon
+          label: الأيقونة
+          widget: select
+          required: false
+          options: *id002
+          default: code-slash
+        - name: link
+          label: رابط (اختياري)
+          widget: string
+          required: false
+      - name: chips
+        label: 'الكلمات (لشكل: كبسولات، افصلي بفاصلة) (عربي)'
+        widget: text
+        required: false
+      - name: chips_en
+        label: 'الكلمات (لشكل: كبسولات، افصلي بفاصلة) (English)'
+        widget: text
+        required: false

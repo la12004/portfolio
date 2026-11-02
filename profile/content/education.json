@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "degree": "بكالوريوس العلوم في نظم المعلومات",
+      "degree_en": "Bachelor of Science in Information Systems",
+      "school": "جامعة الملك خالد",
+      "school_en": "King Khalid University",
+      "location": "أبها، المملكة العربية السعودية",
+      "location_en": "Abha, Saudi Arabia",
+      "badge": "تخرجت 2026",
+      "badge_en": "Graduated 2026",
+      "coursework": "إدارة قواعد البيانات, تحليل وتصميم النظم, تطوير الويب, إدارة العمليات التجارية, تنقيب البيانات, تعلم الآلة",
+      "coursework_en": "Database Administration, Systems Analysis and Design, Web Development, Business Process Management, Data Mining, Machine Learning"
+    }
+  ]
+}
