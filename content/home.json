@@ -1,12 +1,14 @@
 {
   "name": "لمى أ. الشهري",
-  "name_en": "Lama A. Al Shahri",
-  "initials": "LM",
-  "role": "خريجة نظم معلومات | تطوير الواجهات الأمامية | تحليل البيانات | تصميم UI/UX",
-  "role_en": "Information Systems Graduate | Front-End Development | Data Analytics | UI/UX Design",
   "tagline": "خريجة نظم معلومات من جامعة الملك خالد، أبني حلولا رقمية تتمحور حول المستخدم عند تقاطع التقنية والبيانات والتصميم.",
+  "initials": "LM",
+  "role_en": "Information Systems Graduate | Front-End Development | Data Analytics | UI/UX Design",
+  "photo": "/images/uploads/شعار-لاما-الشهري-بتدرج-بنفسجي-وأزرق.png",
+  "footer_tag_en": "Technology, data & user-centered design.",
+  "role": "خريجة نظم معلومات | تطوير الواجهات الأمامية | تحليل البيانات | تصميم UI/UX",
+  "footer_tag": "التقنية والبيانات والتصميم المتمحور حول المستخدم.",
   "tagline_en": "Information Systems graduate from King Khalid University, building user-centered digital solutions at the intersection of technology, data, and design.",
-  "photo": "",
+  "name_en": "Lama A. Al Shahri",
   "highlights": [
     {
       "title": "تطوير الواجهات الأمامية",
@@ -28,7 +30,5 @@
       "title_en": "AI & Emerging Technologies",
       "icon": "cpu"
     }
-  ],
-  "footer_tag": "التقنية والبيانات والتصميم المتمحور حول المستخدم.",
-  "footer_tag_en": "Technology, data & user-centered design."
+  ]
 }
