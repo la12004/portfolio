@@ -29,6 +29,34 @@
       "title": "نظام اكتشاف حرائق الغابات",
       "tech": "Drone -Python- AI- Computer Vision -YOLOv8",
       "image": "/images/uploads/لقطة-شاشة-2026-05-04-205549.png"
+    },
+    {
+      "featured": false,
+      "title": "اكتشاف مشكلات النخيل",
+      "title_en": "Palm Tree Issue Detection",
+      "description": "حل يعتمد على الذكاء الاصطناعي لاكتشاف أمراض النخيل وتحديدها، وتقديم توصيات بالعلاجات المناسبة باستخدام تقنية تصنيف الصور.",
+      "description_en": "AI-powered solution for detecting palm tree diseases and providing treatment recommendations using image classification.",
+      "tech": "AI- Image Classification -Drone  "
+    },
+    {
+      "featured": false,
+      "title_en": "Obesity Data Analysis Dashboard",
+      "title": "لوحة معلومات تحليل بيانات السمنة",
+      "description": "لوحة معلومات تفاعلية باستخدام Tableau لتحليل أنماط السمنة لدى السكان، ودراسة العوامل المرتبطة بنمط الحياة والصحة وتأثيرها على معدلات السمنة.",
+      "description_en": "Interactive Tableau dashboard analyzing lifestyle and health factors affecting obesity patterns in populations.",
+      "tech": "Tableau- Data Analysis-Visualization",
+      "github": "https://github.com/la12004/obesity-data-analysis-dashboard",
+      "image": "/images/uploads/لقطة-شاشة-2026-06-07-023932.png"
+    },
+    {
+      "featured": false,
+      "title_en": "haraj-uiux-redesign",
+      "description": "مشروع لإعادة تصميم وتحسين واجهات تطبيق حراج، بهدف تطوير تجربة المستخدم (UX) وتحسين سهولة الاستخدام والتنقل، مع تقديم تصميم واجهات عصرية ومنظمة تتناسب مع احتياجات المستخدمين.",
+      "title": "تحسين واجهات تطبيق حراج",
+      "description_en": "A project focused on redesigning and improving the Haraj app interfaces to enhance the user experience (UX), improve usability and navigation, and deliver a modern, organized interface tailored to users' needs.",
+      "tech": "Figma - UI/UX Design - Human Computer Interaction (HCI) - User Research",
+      "github": "https://github.com/la12004/haraj-uiux-redesign",
+      "image": "/images/uploads/حراج.png"
     }
   ]
 }
