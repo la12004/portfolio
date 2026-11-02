@@ -1,17 +1,25 @@
 {
   "items": [
     {
-      "title": "خُطا",
-      "title_en": "Khuta",
-      "description": "تطبيق جوال للّياقة يكافئ المستخدم على خطواته ونشاطه اليومي (Move-to-Earn)، موجّه للسوق السعودي.",
-      "description_en": "A fitness mobile app that rewards users for their steps and daily activity (Move-to-Earn), built for the Saudi market.",
-      "image": "",
-      "link": "",
-      "featured": true,
-      "tech": "",
       "details": "خُطا تطبيق جوال للياقة البدنية يعتمد فكرة Move-to-Earn: يتتبع خطوات المستخدم ونشاطه اليومي ويكافئه عليها.\n\nيستهدف السوق السعودي، ويهدف إلى تحفيز المجتمع على الحركة بطريقة ممتعة ومجزية.",
+      "github": "",
       "details_en": "Khuta is a fitness mobile app built on the Move-to-Earn idea: it tracks the user's steps and daily activity and rewards them for it.\n\nIt targets the Saudi market and aims to motivate people to move in a fun and rewarding way.",
-      "github": ""
+      "description_en": "A fitness mobile app that rewards users for their steps and daily activity (Move-to-Earn), built for the Saudi market.",
+      "featured": true,
+      "title_en": "Khuta",
+      "tech": "",
+      "title": "خُطا",
+      "link": "",
+      "image": "",
+      "description": "تطبيق جوال للّياقة يكافئ المستخدم على خطواته ونشاطه اليومي (Move-to-Earn)، موجّه للسوق السعودي."
+    },
+    {
+      "featured": false,
+      "title_en": "VoltPath – Smart Energy Model",
+      "title": "VoltPath – نموذج الطاقة الذكية",
+      "description": "مشروع مصغّر لتوليد الكهرباء باستخدام مستشعرات الضغط وأنظمة الكهروضغطية (Piezoelectric)، بهدف استكشاف حلول الطاقة المستدامة.",
+      "description_en": "Mini project for generating electricity using pressure sensors and piezo systems, exploring sustainable energy solutions.",
+      "tech": "IoT-Sensors-Hardware-Piezoelectric Sensor"
     }
   ]
 }
