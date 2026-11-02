@@ -1,17 +1,17 @@
 {
   "items": [
     {
-      "details": "خُطا تطبيق جوال للياقة البدنية يعتمد فكرة Move-to-Earn: يتتبع خطوات المستخدم ونشاطه اليومي ويكافئه عليها.\n\nيستهدف السوق السعودي، ويهدف إلى تحفيز المجتمع على الحركة بطريقة ممتعة ومجزية.",
+      "details": "",
       "github": "",
-      "details_en": "Khuta is a fitness mobile app built on the Move-to-Earn idea: it tracks the user's steps and daily activity and rewards them for it.\n\nIt targets the Saudi market and aims to motivate people to move in a fun and rewarding way.",
-      "description_en": "A fitness mobile app that rewards users for their steps and daily activity (Move-to-Earn), built for the Saudi market.",
+      "details_en": "\n",
+      "description_en": "HUSN is an intelligent wildfire early detection system that uses Artificial Intelligence, Computer Vision, and drone technology. The system analyzes live video streams from drones using the YOLOv8 model to detect fire and smoke, delivering real-time alerts through a web-based monitoring dashboard to support faster emergency response and improve environmental protection.",
       "featured": true,
-      "title_en": "Khuta",
-      "tech": "",
-      "title": "خُطا",
+      "title_en": "HUSN",
+      "tech": "YOLOv8 - Python - Computer Vision - Artificial Intelligence (AI) - DJI Drone - React.js - Node.js - AWS EC2 - AWS S3 - DynamoDB - NGINX - HLS Streaming - WebSockets",
+      "title": "حُصن",
       "link": "",
-      "image": "",
-      "description": "تطبيق جوال للّياقة يكافئ المستخدم على خطواته ونشاطه اليومي (Move-to-Earn)، موجّه للسوق السعودي."
+      "image": "/images/uploads/لقطة-شاشة-2026-05-04-152158.png",
+      "description": "مشروع حُصن هو نظام ذكي للكشف المبكر عن حرائق الغابات باستخدام الذكاء الاصطناعي وتقنيات الرؤية الحاسوبية والطائرات المسيّرة (Drone). يعتمد النظام على تحليل بث الفيديو المباشر من الطائرة المسيّرة لاكتشاف الحرائق والدخان باستخدام نموذج YOLOv8، وإرسال تنبيهات فورية عبر لوحة مراقبة إلكترونية، مما يساهم في تسريع الاستجابة والحد من انتشار الحرائق وحماية البيئة."
     },
     {
       "featured": false,
